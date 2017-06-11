@@ -1,0 +1,10 @@
+{
+    "FunctionName": "iot-receiver",
+    "Runtime": "nodejs4.3",
+    "Role": "arn:aws:iam::921886626409:role/service-role/iot-receiver",
+    "Handler": "dist.default",
+    "Description": "Pushing data to InfluxDB with AWS Lambda from AWS IoT",
+    "Timeout": 5,
+    "MemorySize": 128,
+    "Publish": true
+}
